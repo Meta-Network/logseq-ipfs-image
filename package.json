@@ -1,0 +1,22 @@
+{
+  "name": "logseq-ipfs-image",
+  "version": "0.0.1",
+  "description": "A IPFS image embedding tool for logseq",
+  "author": "MetaNetwork",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "rm -rf dist && parcel build --public-url . --no-source-maps index.html",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.1-alpha.31",
+    "parcel": "^2.0.0"
+  },
+  "dependencies": {},
+  "logseq": {
+    "id": "_mwZzWiYwcwh",
+    "main": "dist/index.html",
+    "icon": "./logo.png"
+  }
+}
